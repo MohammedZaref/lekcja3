@@ -10,5 +10,6 @@ public class Main {
 
         System.out.println("Place Number: " + newPlaceInCinema.getPlaceNumber());
         System.out.println("Row number: " + newPlaceInCinema.getRowNumber());
+        System.out.println("Is busy: " + newPlaceInCinema.getPlaceStatus());
     }
 }
