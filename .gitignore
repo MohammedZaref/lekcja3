@@ -1,5 +1,3 @@
-# Default ignored files
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
 # Package Files #
@@ -31,8 +29,3 @@ target/
 !lib/**
 
 # Compiled Files
-*.class
-bin/
-build/
-/bin1/
-java/build/**
