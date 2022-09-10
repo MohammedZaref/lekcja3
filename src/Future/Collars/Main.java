@@ -8,5 +8,6 @@ public class Main {
 	newPlaceInCinema.setRowNumber(3);
 	newPlaceInCinema.setPlaceStatus(false);
 
+        System.out.println("Place Number: " + newPlaceInCinema.getPlaceNumber());
     }
 }
