@@ -29,3 +29,5 @@ target/
 !lib/**
 
 # Compiled Files
+/out/production/Lekcja3/Future/Collars/Main.class
+/out/production/Lekcja3/Future/Collars/Place.class
