@@ -21,4 +21,17 @@ public class Film {
     public int getProductionYear() {
         return productionYear;
     }
+
+    public void setFilmTitle(String filmTitle) {
+        this.filmTitle = filmTitle;
+    }
+    public void setDirectorFullName(String directorFullName) {
+        this.directorFullName = directorFullName;
+    }
+    public void setDuration (int duration) {
+        this.duration = duration;
+    }
+    public void setProductionYear(int productionYear) {
+        this.productionYear = productionYear;
+    }
 }
