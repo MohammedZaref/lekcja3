@@ -6,7 +6,7 @@ public class Main {
 	Place newPlaceInCinema = new Place();
 	newPlaceInCinema.setPlaceNumber(5);
 	newPlaceInCinema.setRowNumber(3);
-	newPlaceInCinema.setPlaceStatus(false);
+	newPlaceInCinema.setPlaceStatus(true);
 
         System.out.println("Place Number: " + newPlaceInCinema.getPlaceNumber());
         System.out.println("Row number: " + newPlaceInCinema.getRowNumber());
