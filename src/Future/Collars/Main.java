@@ -9,5 +9,6 @@ public class Main {
 	newPlaceInCinema.setPlaceStatus(false);
 
         System.out.println("Place Number: " + newPlaceInCinema.getPlaceNumber());
+        System.out.println("Row number: " + newPlaceInCinema.getRowNumber());
     }
 }
