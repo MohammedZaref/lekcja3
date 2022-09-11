@@ -1,10 +1,14 @@
 package Future.Collars;
 
+import java.util.Calendar;
+
 public class BaseEmployee {
     private String firstName;
     private String lastName;
-    int workingYears;
+    int workYear;
     final int salary = 3000;
+    int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+
 
     public String getFirstName() {
         return firstName;
@@ -15,7 +19,7 @@ public class BaseEmployee {
     }
 
     public int getYearsOfEmployment() {
-        return workingYears;
+        return workYear;
     }
 
 
@@ -27,8 +31,11 @@ public class BaseEmployee {
         this.lastName = lastName;
     }
 
-    public void setYearsOfEmployment(int yearsOfEmployment) {
-        this.workingYears = yearsOfEmployment;
+    public void setYearsOfEmployment(int workYear) {
+        this.workYear = workYear;
     }
 
+    public int calculateTotalWorkingYears() {
+        return currentYear - workYear;
+    }
 }
