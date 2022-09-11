@@ -8,7 +8,7 @@ public class BaseEmployee {
     int workYear;
     final int salary = 3000;
     int currentYear = Calendar.getInstance().get(Calendar.YEAR);
-
+    int workingYears = calculateTotalWorkingYears();
 
     public String getFirstName() {
         return firstName;
