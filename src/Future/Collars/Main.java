@@ -25,5 +25,9 @@ public class Main {
         System.out.println("Duration: " + newFilm.getDuration());
         System.out.println("Year of Production: " + newFilm.getProductionYear());
         // EXERCISE 2 ENDS HERE
+
+        // EXERCISE 3 STARTS HERE
+
+
     }
 }
