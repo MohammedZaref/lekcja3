@@ -5,6 +5,12 @@ public class Place {
     private int rowNumber;
     private boolean placeStatus;
 
+    public Place(int placeNumber, int rowNumber, boolean placeStatus) {
+        this.placeNumber = placeNumber;
+        this.rowNumber = rowNumber;
+        this.placeStatus = placeStatus;
+    }
+
     public int getPlaceNumber() {
         return placeNumber;
     }
