@@ -17,11 +17,11 @@ public class Main {
         // EXERCISE 2 STARTS HERE
         Film newFilm = new Film();
 
-        newFilm.setFilmTitle("The Social Network");
-        newFilm.setDirectorFullName("David Fincher");
-        newFilm.setDuration(120);
-        newFilm.setProductionYear(2010);
-        System.out.println("Film: " + newFilm.getFilmTitle());
+//        newFilm.setTitle("The Social Network");
+//        newFilm.setDirectorFullName("David Fincher");
+//        newFilm.setDuration(120);
+//        newFilm.setProductionYear(2010);
+        System.out.println("Film: " + newFilm.getTitle());
         System.out.println("Directed By: " + newFilm.getDirectorFullName());
         System.out.println("Duration: " + newFilm.getDuration());
         System.out.println("Year of Production: " + newFilm.getProductionYear());
