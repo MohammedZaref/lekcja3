@@ -1,13 +1,14 @@
 package Future.Collars;
 
 public class Film {
-    private String filmTitle;
-    private String directorFullName;
-    private int duration;
-    private int productionYear;
+    private final String title = "The Social Network";
+    private final String directorFullName = "David Fincher";
 
-    public String getFilmTitle() {
-        return filmTitle;
+    private final int duration = 120;
+    private final int productionYear = 2010;
+
+    public String getTitle() {
+        return title;
     }
 
     public String getDirectorFullName() {
@@ -20,18 +21,5 @@ public class Film {
 
     public int getProductionYear() {
         return productionYear;
-    }
-
-    public void setFilmTitle(String filmTitle) {
-        this.filmTitle = filmTitle;
-    }
-    public void setDirectorFullName(String directorFullName) {
-        this.directorFullName = directorFullName;
-    }
-    public void setDuration (int duration) {
-        this.duration = duration;
-    }
-    public void setProductionYear(int productionYear) {
-        this.productionYear = productionYear;
     }
 }
