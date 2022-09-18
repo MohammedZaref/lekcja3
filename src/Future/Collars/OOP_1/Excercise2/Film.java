@@ -1,4 +1,4 @@
-package Future.Collars;
+package Future.Collars.OOP_1.Excercise2;
 
 public class Film {
     private final String title = "The Social Network";

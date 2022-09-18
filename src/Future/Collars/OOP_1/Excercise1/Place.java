@@ -1,4 +1,4 @@
-package Future.Collars;
+package Future.Collars.OOP_1.Excercise1;
 
 public class Place {
     private int placeNumber;

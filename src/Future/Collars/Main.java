@@ -1,5 +1,9 @@
 package Future.Collars;
 
+import Future.Collars.OOP_1.Excercise1.Place;
+import Future.Collars.OOP_1.Excercise2.Film;
+import Future.Collars.OOP_1.Excercise3.BaseEmployee;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -28,6 +32,8 @@ public class Main {
         // EXERCISE 2 ENDS HERE
 
         // EXERCISE 3 STARTS HERE
+
+
 
 
     }
